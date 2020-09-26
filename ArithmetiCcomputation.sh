@@ -6,3 +6,6 @@ read -p "enter the First number :" a
 read -p "enter the Second number :" b
 read -p "enter the Third number :" c
 echo "User input values are: " $a $b $c
+#Operation_one
+Result1=$(($a+$b*$c))
+echo "First operation result is: " $Result1
