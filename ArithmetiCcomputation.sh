@@ -32,7 +32,7 @@ do
 	x=$(($x+1))
 done
 echo "Array value is: " ${arr1[@]}
-order=( $( printf "%s\n" "${arr1[@]}" | sort -n -r  ) )
+order=( $( printf "%s\n" "${arr1[@]}" | sort -n   ) )
 echo "Computation Result In Descending Order :"${order[@]}
 
 
