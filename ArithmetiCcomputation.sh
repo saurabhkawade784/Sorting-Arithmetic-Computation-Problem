@@ -12,4 +12,7 @@ echo "First operation result is: " $Result1
 Result2=$(($a*$b+$c))
 echo "Second Operation result is: " $Result2
 Result3=$(($c+$a/$b))
-echo "Third operation result is: "$Result3
+echo "Third operation result is: " $Result3
+Result4=$(($a%$b+$c))
+echo "Fourth Operation result is: " $Result4
+
