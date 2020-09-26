@@ -32,8 +32,8 @@ do
 	x=$(($x+1))
 done
 echo "Array value is: " ${arr1[@]}
-#result=( $( printf "%s\n" "${combi[@]}" | sort -n -r ) ) 
-#echo "Sorting dict is :"${result[@]}
+order=( $( printf "%s\n" "${arr1[@]}" | sort -n -r  ) )
+echo "Computation Result In Descending Order :"${order[@]}
 
 
 
