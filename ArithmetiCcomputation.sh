@@ -9,3 +9,5 @@ echo "User input values are: " $a $b $c
 #Operation_one
 Result1=$(($a+$b*$c))
 echo "First operation result is: " $Result1
+Result2=$(($a*$b+$c))
+echo "Second Operation result is: " $Result2
