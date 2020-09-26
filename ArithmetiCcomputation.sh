@@ -11,3 +11,5 @@ Result1=$(($a+$b*$c))
 echo "First operation result is: " $Result1
 Result2=$(($a*$b+$c))
 echo "Second Operation result is: " $Result2
+Result3=$(($c+$a/$b))
+echo "Third operation result is: "$Result3
