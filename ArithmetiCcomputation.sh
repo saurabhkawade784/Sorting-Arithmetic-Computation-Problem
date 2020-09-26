@@ -22,3 +22,18 @@ echo "Fourth Operation result is: " $Result4
 ComputationsResult["Fourth"]=$Result4
 
 echo "Stored all calculation result is: " ${ComputationsResult[@]}
+# x indicating array index
+x=o;
+for i in ${!ComputationsResult[@]}
+do
+	#echo "$index:${computationsResult[$i]},"
+	arr=("${ComputationsResult[$i]}")
+	arr1[x]=$arr
+	x=$(($x+1))
+done
+echo "Array value is: " ${arr1[@]}
+#result=( $( printf "%s\n" "${combi[@]}" | sort -n -r ) ) 
+#echo "Sorting dict is :"${result[@]}
+
+
+
